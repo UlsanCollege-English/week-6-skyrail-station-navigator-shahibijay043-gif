@@ -2,13 +2,10 @@
 # Weekly Coding #5: Skyrail Station Navigator
 
 ## Summary
-This program uses binary trees and binary search trees (BSTs) to manage station data.  
-The assignment includes recursive tree traversals using preorder, inorder, and postorder methods.  
-It also includes BST operations for searching and inserting values into the tree.  
-The program practices recursion, tree navigation, and BST rules for storing data correctly.
-
----
-
+In this assignment, I practiced working with binary trees and binary search trees in Python.
+I implemented functions for preorder, inorder, and postorder traversal, along with searching and inserting values into a binary search tree.
+This project helped me improve my understanding of recursive tree traversal, node relationships, and BST operations.
+I also learned how to carefully handle edge cases while keeping the code clean, readable, and organized.
 ## Approach
 
 - For preorder traversal, I visited the root node first, then recursively visited the left subtree and right subtree.
@@ -101,3 +98,15 @@ Example:
 ```bash
 pytest -q
 15 passed
+
+Approach
+preorder_values
+I visited the root node first, then recursively traversed the left and right subtrees.
+inorder_values
+I recursively traversed the left subtree, visited the root, and then traversed the right subtree.
+postorder_values
+I recursively traversed both subtrees before visiting the root node.
+bst_contains
+I used iterative traversal to search for a target value inside the binary search tree.
+bst_insert
+I inserted new values into the correct position while maintaining BST ordering rules.
